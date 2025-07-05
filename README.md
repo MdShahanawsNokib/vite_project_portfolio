@@ -1,43 +1,102 @@
-<h1>Personal Portfolio Website </h1>
-Author: Md Shahanaws Nokib
-Project: First Full-Functional Portfolio Website
-Tech Focus: Frontend Development with React, Vite, and Tailwind CSS
+<h1 align="center">🌐 Personal Portfolio Website</h1>
 
-<h3> About the Project </h3>
-This is my first fully functional personal portfolio website, designed to showcase my skills, projects, and professional background. It reflects my journey as a developer and language instructor, combining clean design with modern web technologies.
-The project is built using:
-- ⚛️ React for component-based UI
-- ⚡ Vite for fast development and optimized builds
-- 🎨 Tailwind CSS for utility-first styling
-- 🧱 HTML5 as the structural foundation
+<p align="center">
+  <b>Author:</b> Md Shahanaws Nokib &nbsp;|&nbsp;
+  <b>Project:</b> First Full-Functional Portfolio Website<br>
+  <b>Tech Focus:</b> Frontend Development with React, Vite, and Tailwind CSS
+</p>
 
-🔧 Setup & Configuration
-The project integrates several powerful tools and libraries to enhance development and user experience:
-| Tool / Library | Purpose | 
-| vite | Lightning-fast build tool and dev server | 
-| react | UI library for building interactive interfaces | 
-| tailwindcss | Utility-first CSS framework | 
-| @tailwindcss/vite | Tailwind plugin for Vite integration | 
-| lucide-react | Icon library for clean, customizable SVG icons | 
-| react-router-dom | Client-side routing for SPA navigation | 
-| tailwind-merge | Merges Tailwind classes intelligently | 
-| clsx | Conditional className utility | 
-| class-variance-authority | Variant-based styling with Tailwind | 
-| @radix-ui/react-* | Accessible, unstyled UI primitives | 
-| react-toastify | Toast notifications for user feedback | 
+---
 
+## 🚀 About the Project
 
+This is my **first fully functional personal portfolio website**, built to showcase my **skills, projects, and professional journey**. It combines elegant design with modern frontend technologies, highlighting both my development and teaching background.
 
-<h3> Features <h3>
-- ✅ Fully responsive layout
-- ✅ Smooth page transitions with React Router
-- ✅ Modular component structure
-- ✅ Custom UI components using Radix and CVA
-- ✅ Toast notifications for user interactions
-- ✅ Clean and semantic HTML5 structure
+### 🛠️ Built With:
+- ⚛️ **React** – for a component-based UI
+- ⚡ **Vite** – for blazing-fast builds and development
+- 🎨 **Tailwind CSS** – for utility-first, responsive styling
+- 🧱 **HTML5** – clean, semantic structure
 
-<h4> Getting Started <h4>
+---
+
+## 🔧 Setup & Configuration
+
+The project leverages a set of robust tools and libraries to deliver great performance and maintainability:
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool / Library</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>vite</td>
+      <td>Lightning-fast build tool and dev server</td>
+    </tr>
+    <tr>
+      <td>react</td>
+      <td>Interactive and reusable UI components</td>
+    </tr>
+    <tr>
+      <td>tailwindcss</td>
+      <td>Utility-first CSS framework for fast styling</td>
+    </tr>
+    <tr>
+      <td>@tailwindcss/vite</td>
+      <td>Vite plugin for seamless Tailwind integration</td>
+    </tr>
+    <tr>
+      <td>lucide-react</td>
+      <td>Clean, customizable SVG icon set</td>
+    </tr>
+    <tr>
+      <td>react-router-dom</td>
+      <td>Client-side routing for seamless navigation</td>
+    </tr>
+    <tr>
+      <td>tailwind-merge</td>
+      <td>Smart merging of Tailwind classes</td>
+    </tr>
+    <tr>
+      <td>clsx</td>
+      <td>Conditional `className` utility</td>
+    </tr>
+    <tr>
+      <td>class-variance-authority</td>
+      <td>Variant-based class styling system</td>
+    </tr>
+    <tr>
+      <td>@radix-ui/react-*</td>
+      <td>Accessible, unstyled primitives for UI</td>
+    </tr>
+    <tr>
+      <td>react-toastify</td>
+      <td>Stylish toast notifications for user feedback</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## ✨ Features
+
+✅ Fully responsive design  
+✅ Smooth page transitions (SPA)  
+✅ Modular and reusable components  
+✅ Accessible custom UI with Radix & CVA  
+✅ Toast alerts for UX feedback  
+✅ Clean HTML5 structure and SEO-friendly
+
+---
+
+## 🧑‍💻 Getting Started
+
 To run the project locally:
+
+```bash
 # Clone the repository
 git clone https://github.com/MdShahanawsNokib/vite_project_portfolio.git
 cd vite_project_portfolio
@@ -45,18 +104,5 @@ cd vite_project_portfolio
 # Install dependencies
 npm install
 
-# Start the development server
+# Start development server
 npm run dev
-
-.
-
-
-📬 Contact
-Feel free to connect with me:
-- 📧 Email: shahanawsnokib123@gmail.com
-- 🌐 GitHub: @MdShahanawsNokib
-
-
-
-
-
