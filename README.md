@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Personal Portfolio Website</h1>
+<h1 align="center"> Personal Portfolio Website</h1>
 
 <p align="center">
   <b>Author:</b> Md Shahanaws Nokib &nbsp;|&nbsp;
@@ -8,19 +8,19 @@
 
 ---
 
-## 🚀 About the Project
+##  About the Project
 
 This is my **first fully functional personal portfolio website**, built to showcase my **skills, projects, and professional journey**. It combines elegant design with modern frontend technologies, highlighting both my development and teaching background.
 
-### 🛠️ Built With:
-- ⚛️ **React** – for a component-based UI
-- ⚡ **Vite** – for blazing-fast builds and development
-- 🎨 **Tailwind CSS** – for utility-first, responsive styling
-- 🧱 **HTML5** – clean, semantic structure
+###  Built With:
+-  **React** – for a component-based UI
+-  **Vite** – for blazing-fast builds and development
+-  **Tailwind CSS** – for utility-first, responsive styling
+-  **HTML5** – clean, semantic structure
 
 ---
 
-## 🔧 Setup & Configuration
+##  Setup & Configuration
 
 The project leverages a set of robust tools and libraries to deliver great performance and maintainability:
 
@@ -81,18 +81,18 @@ The project leverages a set of robust tools and libraries to deliver great perfo
 
 ---
 
-## ✨ Features
+##  Features
 
-✅ Fully responsive design  
-✅ Smooth page transitions (SPA)  
-✅ Modular and reusable components  
-✅ Accessible custom UI with Radix & CVA  
-✅ Toast alerts for UX feedback  
-✅ Clean HTML5 structure and SEO-friendly
+ Fully responsive design  
+ Smooth page transitions (SPA)  
+ Modular and reusable components  
+ Accessible custom UI with Radix & CVA  
+ Toast alerts for UX feedback  
+ Clean HTML5 structure and SEO-friendly
 
 ---
 
-## 🧑‍💻 Getting Started
+## Getting Started
 
 To run the project locally:
 
