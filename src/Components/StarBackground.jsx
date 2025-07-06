@@ -27,11 +27,24 @@ export const StarBackground = () => {
                 animationDuration: Math.random() * 4 + 2, // Random duration between 2 and 6 seconds
             })
         }
+         setStars(newStars);  
     }
 
-    setStars(newStars);    // This component is intentionally left empty.
+     // This component is intentionally left empty.
     // It serves as a placeholder for future background effects or animations.
-    return <div>
-    </div>;
+    return (<div className="fixed inset-0 overflow-hidden pointer-event-none z-0">
+        {stars.map((star) => (
+         <div key={star.id} className="star animate-pluse-subtle" style={{
+            width: star.size + "px",
+            height: star.size + "px",
+            left: star.x + "%",
+            top: star.y + "%",
+            opacity: star.opacity,
+            animationDuration: star.animationDuration + "s",
+
+
+         }}/>
+        ))}
+    </div>)
 
 }
