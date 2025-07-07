@@ -6,16 +6,20 @@ export const StarBackground = () => {
     const [stars, setStars] = useState([]);
 
     //id, size, x, y, delay, annimationDuration
-    const[meteors, setMeteors] = useState([]);
+    const [meteors, setMeteors] = useState([]);
 
     useEffect(() => {
         generateStars();
         generateMeteors();
-        
+
         const handleResize = () => {
             generateStars();
         }
-    //   return () =>  window.addEventListener("resize", "handleResize")
+        window.addEventListener("resize", handleResize);
+        // Generate stars on initial load and on window resize
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        }
     }, []);
 
 
@@ -36,13 +40,13 @@ export const StarBackground = () => {
                 animationDuration: Math.random() * 4 + 2, // Random duration between 2 and 6 seconds
             })
         }
-         setStars(newStars);  
+        setStars(newStars);
     };
 
 
-  //Meteor generate 
+    //Meteor generate 
     const generateMeteors = () => {
-        const numberOfMeteors= 4;
+        const numberOfMeteors = 4;
         const newMeteors = []
 
         for (let i = 0; i < numberOfMeteors; i++) {
@@ -56,39 +60,39 @@ export const StarBackground = () => {
                 animationDuration: Math.random() * 3 + 3, // Random duration between 2 and 6 seconds
             })
         }
-         setMeteors(newMeteors);  
+        setMeteors(newMeteors);
     };
 
-     // This component is intentionally left empty.
+    // This component is intentionally left empty.
     // It serves as a placeholder for future background effects or animations.
     return (<div className="fixed inset-0 overflow-hidden pointer-event-none z-0">
         {stars.map((star) => (
-         <div key={star.id} className="star animate-pluse-subtle" style={{
-            width: star.size + "px",
-            height: star.size + "px",
-            left: star.x + "%",
-            top: star.y + "%",
-            opacity: star.opacity,
-            animationDuration: star.animationDuration + "s",
+            <div key={star.id} className="star animate-pluse-subtle" style={{
+                width: star.size + "px",
+                height: star.size + "px",
+                left: star.x + "%",
+                top: star.y + "%",
+                opacity: star.opacity,
+                animationDuration: star.animationDuration + "s",
 
 
-         }}/>
+            }} />
         ))}
 
 
 
 
         {meteors.map((meteor) => (
-         <div key={meteor.id} className="meteor animate-meteor" style={{
-            width: meteor.size * 50 + "px",
-            height: meteor.size * 2 + "px",
-            left: meteor.x + "%",
-            top: meteor.y + "%",
-            animationDelay: meteor.delay,
-            animationDuration: meteor.animationDuration + "s",
+            <div key={meteor.id} className="meteor animate-meteor" style={{
+                width: meteor.size * 50 + "px",
+                height: meteor.size * 2 + "px",
+                left: meteor.x + "%",
+                top: meteor.y + "%",
+                animationDelay: meteor.delay,
+                animationDuration: meteor.animationDuration + "s",
 
 
-         }}/>
+            }} />
         ))}
     </div>)
 
