@@ -189,3 +189,53 @@
   padding: 0;
   text-align: center;
 }
+
+
+@keyframes typing-multiline {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+
+  to {
+    max-height: 500px;
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-typing-multiline {
+    animation: typing-multiline 3.0s ease-out forwards;
+    overflow: hidden;
+  }
+}
+
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@layer utilities {
+  .animate-typing {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40, end) forwards;
+  }
+
+  .blinking-cursor::after {
+    content: '|';
+    display: inline-block;
+    margin-left: 4px;
+    animation: blink 1s infinite;
+    color: hsl(var(--primary));
+    /* optional: match your theme color */
+  }
+}
