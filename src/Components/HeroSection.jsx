@@ -1,3 +1,5 @@
+import { ArrowDown } from "lucide-react"
+
 export const HeroSection = () => {
     return <section id="Hero"
         className="relative min-h-screen flex flex-col items-center justify-center px-4">
@@ -18,14 +20,26 @@ export const HeroSection = () => {
                         </span>
                     </h1>
 
-                    <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-typing-multiline">
-                        A Computer Science graduate and have practical skills in web development, tech support and office coordination. I can create fully responsive websites with the help of React.js, Tailwind CSS, WordPress, with a burgeoning interest in cybersecurity.
-                        I am currently employed at Bit Code Technologies Ltd., where I am in charge of website maintenance as well as other development related duties. I excel at problem-solving, learning new techniques, and working on meaningful projects.
+                    <p className="text-lg md:text-xs text-muted-foreground max-w-2xl mx-auto animate-typing-multiline">
+                        Computer Science graduate skilled in React.js, Tailwind CSS, and WordPress. Currently working at Bit Code Technologies Ltd. with a focus on web development and tech support.
                         <span className="animate-typing blinking-cursor">.....</span>
                     </p>
 
-
+                    {/* View My Work */}
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                        <a href="#projects" className="cosmic-button">
+                            Vew My Work
+                        </a>
+                    </div>
                 </div>
+            </div>
+
+
+
+
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+                <span className="text-sm text-muted-foreground">Scroll</span>
+                <ArrowDown className="h-5 w-5 text-primary" />
             </div>
 
         </div>

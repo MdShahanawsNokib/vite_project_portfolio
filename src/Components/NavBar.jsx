@@ -32,7 +32,7 @@ export const Navbar = () => {
             <div className="container flex items-center justify-between px-6">
                 <a className="text-xl font-bold flex items-center" href="#hero">
                     <span className="relative z-10">
-                        <span className="text-glow text-foreground">
+                        <span className="text-glow text-primary font-bold">
                             Nokib's{" "}
                         </span>
                         Portfolio

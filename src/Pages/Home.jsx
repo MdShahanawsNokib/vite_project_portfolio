@@ -1,3 +1,4 @@
+import { AboutSection } from "../Components/AboutSection";
 import { HeroSection } from "../Components/HeroSection";
 import { Navbar } from "../Components/NavBar";
 import { StarBackground } from "../Components/StarBackground";
@@ -14,7 +15,10 @@ export const Home = () => {
         <Navbar />
 
         {/* Main Content */}
+
         <HeroSection />
+        <AboutSection />
+
 
 
     </div>;
