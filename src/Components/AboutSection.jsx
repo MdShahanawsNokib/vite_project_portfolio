@@ -1,3 +1,5 @@
+import { Briefcase, Code, User } from "lucide-react";
+
 export const AboutSection = () => {
     return (
         <section id="about" className="py-4 px-4 relative">
@@ -38,12 +40,43 @@ export const AboutSection = () => {
 
                     {/* section -- 2 */}
 
-                    <div className="gird grid-cols-1 md:grid-cols-2 gap-6">
-                        <div className="gradient-border p6 card-hover">
+                    <div className="gird grid-cols-1 gap-6">
+                        <div className="gradient-border p-6 card-hover mb-4">
+                            <div className="flex items-start gap-4 ">
+                                <div className="p-3 rounded-full bg-primary/10 ">
+                                    <Code className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Web Development</h4>
+                                    <p className="text-mute-foreground text-xs">Crafting sleek, responsive, and modern web experiences that blend clean design with powerful functionality.</p>
+                                </div>
 
+                            </div>
                         </div>
-                        <div className="gradient-border p6 card-hover"></div>
-                        <div className="gradient-border p6 card-hover"></div>
+                        <div className="gradient-border p-6 card-hover mb-4">
+                            <div className="flex items-start gap-4 ">
+                                <div className="p-3 rounded-full bg-primary/10 ">
+                                    <User className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">IT Support & Technical Assistance</h4>
+                                    <p className="text-mute-foreground text-xs">Providing reliable IT support and troubleshooting to ensure smooth technical operations and user satisfaction.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4 ">
+                                <div className="p-3 rounded-full bg-primary/10 ">
+                                    <Briefcase className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Documentation & Compliance</h4>
+                                    <p className="text-mute-foreground text-xs">Experienced in preparing accurate documentation and ensuring compliance with regulatory standards across technical and administrative processes.</p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
                 </div>
