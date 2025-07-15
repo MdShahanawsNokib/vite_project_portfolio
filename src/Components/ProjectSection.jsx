@@ -1,3 +1,5 @@
+import { ExternalLink, Github, MoveLeft, MoveRight } from "lucide-react";
+
 const projects = [
   {
     id: 1,
@@ -67,28 +69,37 @@ export const ProjecSction = () =>{
                   {project.description}
                 </p>
 
-                <div className="mx-auto">
+                <div className="mx-auto flex">
                   <a
                     href={project.demoUrl}
-                    className="text-primary hover:underline mx-2 text-forefround bg-primary  border p-3 rounded-full"
+                    className="text-primary hover:underline p-3 flex gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                    <ExternalLink/>
                     Live Demo
                   </a>
                   <a
                     href={project.githubUrl}
-                    className="text-primary hover:underline"
+                    className="text-primary p-3 hover:underline flex gap-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    GitHub
+                   <Github/> GitHub
                   </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="m-12 text-center">
+        <a
+        target="_blank"
+        href="https://github.com/MdShahanawsNokib"
+        className="cosmic-button w-fit flex mx-auto gap-2 "
+        >My Github Profile <MoveRight/> </a>
       </div>
     </section>
   );

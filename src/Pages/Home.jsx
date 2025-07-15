@@ -1,4 +1,5 @@
 import { AboutSection } from "../Components/AboutSection";
+import { ContactSection } from "../Components/ContactSection";
 import { HeroSection } from "../Components/HeroSection";
 import { Navbar } from "../Components/NavBar";
 import { ProjecSction } from "../Components/ProjectSection";
@@ -23,6 +24,7 @@ export const Home = () => {
             <AboutSection />
             <SkillsSection />
             <ProjecSction/>
+            <ContactSection/>
         </main>
 
 
