@@ -1,5 +1,6 @@
 import { AboutSection } from "../Components/AboutSection";
 import { ContactSection } from "../Components/ContactSection";
+import { FooterSection } from "../Components/FooterSection";
 import { HeroSection } from "../Components/HeroSection";
 import { Navbar } from "../Components/NavBar";
 import { ProjecSction } from "../Components/ProjectSection";
@@ -20,13 +21,16 @@ export const Home = () => {
         {/* Main Content */}
 
         <main>
-            <HeroSection />
-            <AboutSection />
-            <SkillsSection />
-            <ProjecSction/>
-            <ContactSection/>
+            <HeroSection /> {/* Hero section */}
+            <AboutSection /> {/* About section */}
+            <SkillsSection /> {/* Skills section */}
+            <ProjecSction />  {/* Projects section */}
+            <ContactSection /> {/* Contact section */}
         </main>
 
+
+
+        <FooterSection /> {/* Footer section */}
 
 
     </div>;

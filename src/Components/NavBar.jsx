@@ -3,11 +3,11 @@ import { ClassN } from "../lib/utils";
 import { Menu, X } from "lucide-react";
 
 const navBarItems = [
-    { name: 'Home', path: '/home' },
-    { name: "Skills", path: '/skills' },
-    { name: "Projects", path: '/projects' },
-    { name: "Contact", path: '/contact' },
-    { name: "Resume", path: '/resume' }
+    { name: 'Home', path: '#hero' },
+    { name: "Skills", path: '#skills' },
+    { name: "Projects", path: '#projects' },
+    { name: "Contact", path: '#contact' },
+    { name: "Resume", path: 'https://drive.google.com/drive/folders/1Rj-lpwXXgNEKmi0HxmxbN_xYxm15nFM7?usp=sharing' }
 ];
 
 export const Navbar = () => {
@@ -77,10 +77,6 @@ export const Navbar = () => {
                         ))}
                     </div>
                 </div>
-
-
-
-
 
             </div>
         </nav>
