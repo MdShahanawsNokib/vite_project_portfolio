@@ -2,13 +2,16 @@ import { ExternalLink, Github, MoveLeft, MoveRight } from "lucide-react";
 
 const projects = [
   {
+
     id: 1,
-    title: "SaaS Admin Dashboard",
-    description: "A beautiful Deshboard.",
-    image: "/picture/image.png",
-    tags: ["React", "TailwindCSS", "NodeJs"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Live Weather App",
+    description: "A real-time weather forecast app built with React.js, Tailwind CSS, and Node.js. It fetches data from the OpenWeatherMap API and displays current weather, animated icons, live clock, and user location support.",
+    image: "/picture/image.png", // Replace with your actual image path
+    tags: ["React", "Tailwind CSS", "Node.js", "API"],
+    demoUrl: "#", // Replace with your Netlify/Vercel live URL
+    githubUrl: "https://github.com/MdShahanawsNokib/wather/tree/main" // Replace with your GitHub repo URL
+
+
   },
   {
     id: 2,
